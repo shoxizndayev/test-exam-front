@@ -1,0 +1,85 @@
+.blocks {
+  &__title {
+    margin-bottom: 65px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    color: #000000;
+    text-align: center;
+  }
+
+  &__select-collection {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+  }
+}
+
+.university {
+  margin-top: 50px;
+
+  &__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    color: #000000;
+  }
+
+  &__selection {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  &__selected-faculty {
+    padding: 25px;
+    width: 500px;
+    height: 215px;
+    background: #FFFFFF;
+    border: 1px solid #18A0FB;
+    box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+    border-radius: 20px;
+  }
+
+  &__score {
+    padding: 25px;
+    width: 500px;
+    background: #FFFFFF;
+    border: 1px solid #18A0FB;
+    box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+    border-radius: 20px;
+
+    & h3 {
+      margin: 0;
+    }
+
+    & ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    & li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 70%;
+
+      & p {
+        width: 100px;
+      }
+    }
+  }
+}
